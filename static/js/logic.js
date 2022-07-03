@@ -19,7 +19,7 @@ function createFeatures(earthquakeData) {
 
   function changeColor(feature) {
     if (feature.geometry.coordinates[2] > 0.5)
-    return "blue"
+    return "lightgreen"
     else if (feature.geometry.coordinates[2] > 2)
     return "yellow"
     else if (feature.geometry.coordinates[2] > 3)
